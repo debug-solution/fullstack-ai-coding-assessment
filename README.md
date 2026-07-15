@@ -36,7 +36,7 @@ Examples of suitable APIs include GitHub repositories, recipes, books, movies, c
 
 ## Security Expectations
 
-Security is part of the assessment. Demonstrate pragmatic safeguards appropriate for a one-hour build:
+Security is part of the assessment. Demonstrate pragmatic safeguards appropriate for a two-hour build:
 
 - Use a reputable authentication solution; do not implement password handling from scratch.
 - Protect dashboard routes and enforce ownership of saved items at the API/database layer (for example, server-side authorization or row-level security).
@@ -97,6 +97,8 @@ Send all of the following:
 - A short note describing anything incomplete and how you would complete it next.
 
 The application may be public for review. If using a provider requires test accounts, include safe reviewer instructions without publishing passwords or secrets.
+
+Note: Create a private repository in your GitHub account using this repository as the starting template. Invite debug-solution as a collaborator before beginning. Create and work on assessment/<your-name>. Do not add other collaborators or change repository visibility.
 
 ## Evaluation Criteria
 
