@@ -1,0 +1,38 @@
+# Dependencies and build output
+node_modules/
+.next/
+.nuxt/
+.angular/
+dist/
+build/
+coverage/
+.cache/
+
+# Environment files — keep the example file only
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local tooling and operating-system files
+.DS_Store
+.idea/
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Deployment and local service state
+.vercel/
+.netlify/
+.firebase/
+supabase/.temp/
+
+# Test artifacts
+playwright-report/
+test-results/
